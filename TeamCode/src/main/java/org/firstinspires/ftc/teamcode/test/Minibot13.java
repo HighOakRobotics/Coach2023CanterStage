@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
 @TeleOp(name="Minibot 13", group="Iterative OpMode")
-// @Disabled
+@Disabled
 public class Minibot13 extends OpMode
 {
     // Declare OpMode members.

@@ -1,11 +1,12 @@
 package org.firstinspires.ftc.teamcode.test;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 @TeleOp(name="Minibot 13 teleop", group="Iterative OpMode")
-// @Disabled
+@Disabled
 public class MiniBotTeleOp extends LinearOpMode {
     private ElapsedTime runtime = new ElapsedTime();
     MiniBotHardware minibot = null;
